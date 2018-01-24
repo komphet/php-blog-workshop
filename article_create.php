@@ -8,7 +8,10 @@
 	<title>Create Articale - สร้างบทความ</title>
 </head>
 <body>
-<form action="article_create_exec.php" method="get">
+    <?php
+        require_once "article_create_exec.php";
+    ?>
+<form action="article_create.php" method="post">
     <h1>Create Article</h1>
     <table>
         <tr>
@@ -25,5 +28,6 @@
     </table>
     <input type="submit" name="submit" value="Save">
 </form>
+
 </body>
 </html>
