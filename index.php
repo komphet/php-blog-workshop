@@ -32,7 +32,10 @@
 			<td>
 				<?php echo $row['created_at'] ?>
 			</td>
-			<td>[ดูบทความ]</td>
+			<td>
+				<a href="article_show.php?id=<?php echo $row['id']; ?>">[ดูบทความ]</a>
+				
+			</td>
 		</tr>
 	<?php 
 		endwhile

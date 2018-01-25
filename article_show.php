@@ -20,16 +20,52 @@
 	</style>
 </head>
 <body>
-	<?php
-		require "config.php";
-		$query = mysqli_query($conn, "") or die(mysqli_error($conn));
-	?>
 	<div class="container">
+		<?php
+			function alertError(){
+				echo "<div class='alert alert-danger'>ไม่มีบทความนี้ ออกไปเลยไป ชิ้วๆ <a href='index.php'>[กลับ]</a></div>";
+				exit();
+			}
+
+
+			if(!isset($_GET['id']) || $_GET['id'] == ''){
+				alertError();
+			}
+
+			$id = $_GET['id'];
+			require "config.php"; 
+			$query = mysqli_query($conn, "SELECT * FROM articles WHERE id = $id") or die(mysqli_error($conn));
+
+			$count = mysqli_num_rows($query);
+			if($count <= 0){
+				alertError();
+			}
+
+
+			if(isset($_GET['action']) && $_GET['action'] == 'delete'){
+				mysqli_query($conn,"DELETE FROM articles WHERE id = $id;") or die(mysqli_error());
+				echo "<div class='alert alert-danger'>ลบข้อมูลแล้วนะคัรบ <a href='index.php'>[กลับ]</a></div>";
+				exit();
+			}
+
+			$result = mysqli_fetch_assoc($query);
+		?>
 		<div class="card text-white bg-primary mb-3">
-		  <div class="card-header">Header</div>
+		  <div class="card-header">
+		  	<?php echo $result['title']; ?> 
+		  	<a class="btn btn-success btn-sm" href="index.php">กลับ</a>
+		  </div>
 		  <div class="card-body">
-		    <h5 class="card-title">Primary card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <p class="card-text">
+		    	<?php 
+		    	 echo $result['content'];
+		    	?>	
+		    </p>
+		  </div>
+		  <div class="card-footer">
+		    	สร้างเมื่อ: <?php echo $result['created_at'];?>	
+		    	<a class="btn btn-warning btn-sm" href="article_edit.php?id=<?php echo $id ?>">แก้ไข</a>
+		    	<a class="btn btn-danger btn-sm" href="article_show.php?id=<?php echo $id ?>&action=delete">ลบ</a>
 		  </div>
 		</div>
 	</div>
