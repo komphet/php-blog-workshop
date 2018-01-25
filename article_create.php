@@ -28,6 +28,7 @@
     </table>
     <input type="submit" name="submit" value="Save">
 </form>
+    <a href="index.php">[Back]</a>
 
 </body>
 </html>

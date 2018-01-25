@@ -1,21 +1,37 @@
-<!doctype html>
-<html lang="th">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Show</title>
+	<meta charset="utf-8">
+	<title>Article Show</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="/assets/bootstrap/css/bootstrap.min.css">
+	<!-- END CSS -->
+
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="/assets/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- END JAVASCRIPT -->
+
+	<style type="text/css">
+		.red-bg{
+			background: rgba(255,0,0,0.3);
+		}
+	</style>
 </head>
 <body>
-<?php
-require 'config.php';
-$id = $_GET['id'];
-$query = mysqli_query($conn, "SELECT * FROM articles WHERE id = $id") or die(mysqli_error($conn));
-$result = mysqli_fetch_assoc($query);
-?>
-Title: <?php echo $result['title'] ?><br>
-Created At: <?php echo $result['created_at'] ?><br>
-Content: <?php echo $result['content'] ?><br>
+	<?php
+		require "config.php";
+		$query = mysqli_query($conn, "") or die(mysqli_error($conn));
+	?>
+	<div class="container">
+		<div class="card text-white bg-primary mb-3">
+		  <div class="card-header">Header</div>
+		  <div class="card-body">
+		    <h5 class="card-title">Primary card title</h5>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		  </div>
+		</div>
+	</div>
 </body>
 </html>
