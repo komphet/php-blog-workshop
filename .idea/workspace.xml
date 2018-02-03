@@ -2,9 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61deaf4e-72aa-41eb-9e4e-968dc4ab30d9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/blog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/contact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/css/templatemo-style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/classic-pattern-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-about-img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-blog-img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-contact-img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-home-img.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-100x100-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-100x100-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-100x100-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-100x100-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-100x100-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-100x100-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-1010x336-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-240x120-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-240x120-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-240x120-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-310x180-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-310x180-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-310x180-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-310x180-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/img/tm-img-660x330-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/488_classic/js/jquery-1.11.3.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/layouts/footer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/layouts/header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/config.php.example" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/home.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/system/register.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/article_edit.php" afterPath="$PROJECT_DIR$/article_edit.php" />
-      <change beforePath="$PROJECT_DIR$/article_show.php" afterPath="$PROJECT_DIR$/article_show.php" />
+      <change beforePath="$PROJECT_DIR$/article_create.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/article_create_exec.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/article_edit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/article_show.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-grid.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-grid.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-reboot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-reboot.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-reboot.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.bundle.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.bundle.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/js/bootstrap.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/assets/jquery/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/system/config.php" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,7 +74,119 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="50" column="84" lean-forward="false" selection-start-line="50" selection-start-column="84" selection-end-line="50" selection-end-column="84" />
+              <folding>
+                <marker date="1517670966964" expanded="true" signature="1010:1201" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="1755:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="1780:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="1814:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="1852:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="1998:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="2121:2175" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="2143:2150" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="2250:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="2298:2369" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="2816:2924" ph="..." />
+                <marker date="1517670966964" expanded="true" signature="3032:3155" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layouts/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/system/register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="163" column="10" lean-forward="false" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templatemo-style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/488_classic/css/templatemo-style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2068">
+              <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/488_classic/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="323" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tm-home-img-container</find>
+      <find>datepic</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,9 +195,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/article_create_exec.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/article_show.php" />
         <option value="$PROJECT_DIR$/article_create.php" />
+        <option value="$PROJECT_DIR$/create.php" />
+        <option value="$PROJECT_DIR$/assets/488_classic/css/templatemo-style.css" />
+        <option value="$PROJECT_DIR$/home.php" />
+        <option value="$PROJECT_DIR$/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/system/.gitignore" />
+        <option value="$PROJECT_DIR$/system/config.php.example" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/layouts/header.php" />
+        <option value="$PROJECT_DIR$/system/register.php" />
       </list>
     </option>
   </component>
@@ -38,8 +217,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-199" />
-    <option name="y" value="-18" />
+    <option name="x" value="87" />
+    <option name="y" value="-8" />
     <option name="width" value="1294" />
     <option name="height" value="912" />
   </component>
@@ -67,6 +246,16 @@
               <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -80,6 +269,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\www\blog-php\system" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\dev\www\blog-php\pages" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,7 +318,11 @@
       <workItem from="1516891667638" duration="4000" />
       <workItem from="1516893294645" duration="3000" />
       <workItem from="1516894695112" duration="147000" />
-      <workItem from="1516914275957" duration="17000" />
+      <workItem from="1516914275957" duration="59000" />
+      <workItem from="1516958777374" duration="564000" />
+      <workItem from="1517632255867" duration="11000" />
+      <workItem from="1517632339135" duration="3101000" />
+      <workItem from="1517669491212" duration="2168000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1516809608712</created>
@@ -137,32 +338,40 @@
       <option name="project" value="LOCAL" />
       <updated>1516811828534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Articles">
+      <created>1516914317368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516914317368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11199000" />
+    <option name="totallyTimeSpent" value="17085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13402778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13402778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20187166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7620321" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -174,25 +383,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update Articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Articles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:D:/../..//D:/dev/www/blog-php/config.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_create_exec.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_show.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_edit.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/index.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/config.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_create_exec.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_show.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_edit.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_create.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/index.php" />
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_create.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/config.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/article_create_exec.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/article_edit.php" />
@@ -232,5 +430,115 @@
     <entry file="file:D:/../..//D:/dev/www/blog-php/article_create.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/config.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/index.php" />
+    <entry file="file://$PROJECT_DIR$/assets/488_classic/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="323" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/summernote/dist/summernote.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/488_classic/css/templatemo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="163" column="10" lean-forward="false" selection-start-line="163" selection-start-column="10" selection-end-line="163" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config.php.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="50" column="84" lean-forward="false" selection-start-line="50" selection-start-column="84" selection-end-line="50" selection-end-column="84" />
+          <folding>
+            <marker date="1517670966964" expanded="true" signature="1010:1201" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="1755:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="1780:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="1814:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="1852:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="1998:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="2121:2175" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="2143:2150" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="2250:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="2298:2369" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="2816:2924" ph="..." />
+            <marker date="1517670966964" expanded="true" signature="3032:3155" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
