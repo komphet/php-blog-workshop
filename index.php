@@ -6,6 +6,7 @@ $pages = [
     'register',
     'login',
     'logout',
+    'forgotpass'
 ];
 
 if (in_array($_GET['page'], $pages)) {
