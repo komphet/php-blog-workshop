@@ -71,6 +71,9 @@ date_default_timezone_set("Asia/Bangkok");
                                 </li>
                             <?php else: ?>
                                 <li class="nav-item">
+                                    <a href="/?page=create" class="nav-link">CREATE BLOG</a>
+                                </li>
+                                <li class="nav-item">
                                     <a href="/?page=logout" class="nav-link">LOGOUT</a>
                                 </li>
                             <?php endif ?>
