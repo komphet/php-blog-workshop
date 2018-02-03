@@ -4,6 +4,7 @@ require './layouts/header.php';
 switch ($_GET['page']){
     case "create":
     case "register":
+    case "login":
         require "system/".$_GET['page'].".php";
         break;
     default:

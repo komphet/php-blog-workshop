@@ -106,6 +106,14 @@ if (isset($_POST['username'])) {
                     </div>
                 </fieldset>
                 <input type="submit" value="REGISTER" class="btn btn-primary btn-lg" style="width: 100%;">
+                <div class="row">
+                    <div class="col-sm-6">
+                        Do you have account? <a href="/?page=login">Login</a>
+                    </div>
+                    <div class="col-sm-6" align="right">
+                        <a href="/?page=forgotpass">Forgot password</a>
+                    </div>
+                </div>
             </div>
         </form>
     </div>
