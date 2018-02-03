@@ -32,7 +32,7 @@
                         <input type="password" class="form-control" placeholder="Password">
                     </div>
                     <div class="col-sm-6 m-b-1">
-                        <input type="password_confirmation" class="form-control" placeholder="Retype Password">
+                        <input type="password" class="form-control" placeholder="Retype Password">
                     </div>
                 </div>
             </fieldset>
