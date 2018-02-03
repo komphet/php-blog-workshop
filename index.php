@@ -1,13 +1,21 @@
 <?php
 require './layouts/header.php';
 
-switch ($_GET['page']){
-    case "create":
-    case "register":
-        require "system/".$_GET['page'].".php";
-        break;
-    default:
-        require "system/home.php";
+$pages = [
+    'register',
+    'login',
+    'logout',
+    'forgotpass',
+    'create',
+    'show',
+    'edit',
+    'delete',
+];
+
+if (in_array($_GET['page'], $pages)) {
+    require "system/" . $_GET['page'] . ".php";
+} else {
+    require "system/home.php";
 }
 
 require './layouts/footer.php';
