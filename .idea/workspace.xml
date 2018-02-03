@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61deaf4e-72aa-41eb-9e4e-968dc4ab30d9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/migrate.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +41,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/show.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
                 <marker date="1517688110469" expanded="true" signature="258:397" ph="SELECT blogs... blogs" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="migrate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <marker date="1517689654113" expanded="true" signature="227:522" ph="CREATE TABLE... blogs" />
+                <marker date="1517689654113" expanded="true" signature="575:1070" ph="CREATE TABLE... users" />
+                <marker date="1517689654113" expanded="true" signature="1123:1166" ph="ALTER TABLE `blogs`... " />
+                <marker date="1517689654113" expanded="true" signature="1219:1262" ph="ALTER TABLE `users`... " />
+                <marker date="1517689654113" expanded="true" signature="1315:1397" ph="ALTER TABLE `blogs`... " />
+                <marker date="1517689654113" expanded="true" signature="1450:1532" ph="ALTER TABLE `users`... " />
               </folding>
             </state>
           </provider>
@@ -80,6 +98,9 @@
         <entry key="$PROJECT_DIR$" value="workshop8-update-blog" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -105,6 +126,7 @@
         <option value="$PROJECT_DIR$/system/edit.php" />
         <option value="$PROJECT_DIR$/system/delete.php" />
         <option value="$PROJECT_DIR$/system/show.php" />
+        <option value="$PROJECT_DIR$/database/migrate.php" />
       </list>
     </option>
   </component>
@@ -144,16 +166,6 @@
             <path>
               <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="blog-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -349,17 +361,23 @@
       <option name="project" value="LOCAL" />
       <updated>1517688239546</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Finished All Blog">
+      <created>1517688317775</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1517688317775</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33269000" />
+    <option name="totallyTimeSpent" value="34782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16388889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -421,7 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:D:/../..//D:/dev/www/blog-php/article_create_exec.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/article_edit.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/article_show.php" />
     <entry file="file:D:/../..//D:/dev/www/blog-php/index.php" />
@@ -610,10 +627,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="22">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
           <folding>
             <marker date="1517688110469" expanded="true" signature="258:397" ph="SELECT blogs... blogs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <marker date="1517689654113" expanded="true" signature="227:522" ph="CREATE TABLE... blogs" />
+            <marker date="1517689654113" expanded="true" signature="575:1070" ph="CREATE TABLE... users" />
+            <marker date="1517689654113" expanded="true" signature="1123:1166" ph="ALTER TABLE `blogs`... " />
+            <marker date="1517689654113" expanded="true" signature="1219:1262" ph="ALTER TABLE `users`... " />
+            <marker date="1517689654113" expanded="true" signature="1315:1397" ph="ALTER TABLE `blogs`... " />
+            <marker date="1517689654113" expanded="true" signature="1450:1532" ph="ALTER TABLE `users`... " />
           </folding>
         </state>
       </provider>
