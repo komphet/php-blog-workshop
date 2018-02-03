@@ -9,6 +9,7 @@ $pages = [
     'create',
     'show',
     'edit',
+    'delete',
 ];
 
 if (in_array($_GET['page'], $pages)) {
