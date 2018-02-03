@@ -44,7 +44,7 @@ date_default_timezone_set("Asia/Bangkok");
     <div class="tm-header">
         <div class="container-fluid">
             <div class="tm-header-inner">
-                <a href="#" class="navbar-brand tm-site-name">CSAG BLOG</a>
+                <a href="/" class="navbar-brand tm-site-name">CSAG BLOG</a>
 
                 <!-- navbar -->
                 <nav class="navbar tm-main-nav">
