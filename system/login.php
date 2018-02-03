@@ -24,7 +24,7 @@ if (isset($_POST['username'])) {
     if (count($errors) <= 0) {
         $user = mysqli_fetch_assoc($query);
         $_SESSION['user'] = $user;
-        echo "<meta http-equiv=\"refresh\" content=\"0;url=/?page=home&msg=". urlencode("Login successfully. Welcome ".$user['username']).".\">";
+        echo "<meta http-equiv=\"refresh\" content=\"0;url=/?msg=". urlencode("Login successfully. Welcome ".$user['username']).".\">";
         echo "Redirecting...";
         exit();
     }
