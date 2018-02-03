@@ -40,6 +40,7 @@ $blog = mysqli_fetch_assoc(mysqli_query($conn, "SELECT blogs.id, title,content, 
                 <td align="right">
                     <?php if (!is_null($_SESSION['user']) && $_SESSION['user']['username'] == $blog['username']): ?>
                         <a href="/?page=edit&id=<?php echo $blog['id']; ?>" class="btn btn-warning btn-lg">EDIT</a>
+                        <a href="/?page=delete&id=<?php echo $blog['id']; ?>" class="btn btn-danger btn-lg">DELETE</a>
                     <?php endif; ?>
                 </td>
             </tr>
