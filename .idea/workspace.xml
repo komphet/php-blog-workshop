@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61deaf4e-72aa-41eb-9e4e-968dc4ab30d9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/system/forgotpass.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/system/logout.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/system/forgotpass.php" afterPath="$PROJECT_DIR$/system/forgotpass.php" />
+      <change beforePath="$PROJECT_DIR$/system/logout.php" afterPath="$PROJECT_DIR$/system/logout.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,51 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forgotpass.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/system/forgotpass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="28" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <marker date="1517678235214" expanded="true" signature="457:542" ph="SELECT * FRO... users" />
-                <marker date="1517678235214" expanded="true" signature="457:577" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -71,7 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="workshop3-logout" />
+        <entry key="$PROJECT_DIR$" value="workshop4-forgotpass" />
       </map>
     </option>
   </component>
@@ -90,8 +45,8 @@
         <option value="$PROJECT_DIR$/system/register.php" />
         <option value="$PROJECT_DIR$/layouts/header.php" />
         <option value="$PROJECT_DIR$/system/login.php" />
-        <option value="$PROJECT_DIR$/system/logout.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/system/logout.php" />
         <option value="$PROJECT_DIR$/system/forgotpass.php" />
       </list>
     </option>
@@ -267,17 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1517678365761</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Create Forgot Password Page">
+      <created>1517678906804</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517678906804</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23898000" />
+    <option name="totallyTimeSpent" value="25890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13402778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13402778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -321,7 +282,8 @@
     <MESSAGE value="Finished Register Page" />
     <MESSAGE value="Finished Login Page" />
     <MESSAGE value="Update Home" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Home" />
+    <MESSAGE value="Create Forgot Password Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Forgot Password Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -408,14 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="75" lean-forward="false" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/layouts/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -448,25 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <marker date="1517678235214" expanded="true" signature="457:542" ph="SELECT * FRO... users" />
-            <marker date="1517678235214" expanded="true" signature="457:577" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -477,17 +412,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="330">
           <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/system/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="50" selection-end-column="38" />
+          <folding>
+            <marker date="1517678235214" expanded="true" signature="457:542" ph="SELECT * FRO... users" />
+            <marker date="1517678235214" expanded="true" signature="457:577" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/system/forgotpass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="1210">
+          <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <marker date="1517680855659" expanded="true" signature="605:624" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:630" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:631" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:687" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:713" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:763" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:810" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="605:841" ph="SELECT * FRO... users" />
+            <marker date="1517680855659" expanded="true" signature="1810:1837" ph="UPDATE users... " />
+            <marker date="1517680855659" expanded="true" signature="1810:1839" ph="UPDATE users... " />
+            <marker date="1517680855659" expanded="true" signature="1810:1882" ph="UPDATE users... " />
+            <marker date="1517680855659" expanded="true" signature="1810:1883" ph="UPDATE users... " />
+            <marker date="1517680855659" expanded="true" signature="1810:1884" ph="UPDATE users... " />
+            <marker date="1517680855659" expanded="true" signature="2218:2345" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="2228:2263" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="2375:4817" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="2403:4806" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="2459:4795" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="2510:4779" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="3005:3797" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="3058:3197" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="3250:3384" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="3437:3578" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="3631:3770" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="4546:4760" ph="..." />
+            <marker date="1517680855659" expanded="true" signature="4590:4737" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
