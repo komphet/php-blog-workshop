@@ -1,3 +1,34 @@
+<?php
+require "system/config.php";
+$blog = mysqli_fetch_assoc(mysqli_query($conn, "SELECT blogs.id, title,content, blogs.updated_at, blogs.created_at, username FROM  blogs JOIN users ON users.id = user_id WHERE blogs.id = " . $_GET['id']));
+
+if (is_null($_SESSION['user']) || is_null($_GET['id']) || $_SESSION['user']['username'] != $blog['username']) {
+    echo "<meta http-equiv=\"refresh\" content=\"0;url=/?msg=" . urlencode("Permission Deny.") . ".\">";
+    echo "Redirecting...";
+    exit();
+}
+
+if (isset($_POST['title'])) {
+    $inputs = [
+        'title',
+        'content',
+    ];
+    foreach ($inputs as $input) {
+        $request = $_POST[$input];
+        if (is_null($request) || $request == '') {
+            $errors[$input] = ucfirst($input) . " is required!";
+        }
+        $requests[$input] = htmlentities($request,ENT_QUOTES );
+    }
+    if (count($errors) <= 0) {
+        mysqli_query($conn, "UPDATE blogs SET title = '".$requests['title']."', content = '".$requests['content']."', updated_at = NOW() WHERE id = ".$_GET['id']) or die(mysqli_error($conn));
+        echo "<meta http-equiv=\"refresh\" content=\"0;url=/?page=show&id=".$_GET['id']."&msg=" . urlencode("Blog has updated successfully.") . ".\">";
+        echo "Redirecting...";
+        exit();
+    }
+}
+?>
+
 <div class="tm-home-img-container">
     <div>
         Edit Blog
@@ -19,9 +50,9 @@
                 </ul>
             </div>
         <?php endif; ?>
-        <form action="/?page=create" method="post">
-            <input type="text" name="title" class="form-control" placeholder="Title">
-            <textarea id="summernote" name="content"></textarea>
+        <form action="/?page=edit&id=<?php echo $blog['id']; ?>" method="post">
+            <input type="text" name="title" value="<?php echo $blog['title']; ?>" class="form-control" placeholder="Title">
+            <textarea id="summernote" name="content"><?php echo $blog['content']; ?></textarea>
             <input type="submit" value="Save" class="btn btn-success btn-lg" style="width: 100%;">
         </form>
 

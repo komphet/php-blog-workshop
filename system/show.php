@@ -38,7 +38,9 @@ $blog = mysqli_fetch_assoc(mysqli_query($conn, "SELECT blogs.id, title,content, 
                     <a href="/" class="btn btn-primary btn-lg">BACK</a>
                 </td>
                 <td align="right">
-                    <a href="#" class="btn btn-warning btn-lg">EDIT</a>
+                    <?php if (!is_null($_SESSION['user']) && $_SESSION['user']['username'] == $blog['username']): ?>
+                        <a href="/?page=edit&id=<?php echo $blog['id']; ?>" class="btn btn-warning btn-lg">EDIT</a>
+                    <?php endif; ?>
                 </td>
             </tr>
         </table>
