@@ -19,9 +19,8 @@ if (isset($_POST['title'])) {
         if (is_null($request) || $request == '') {
             $errors[$input] = ucfirst($input) . " is required!";
         }
-        $requests[$input] = $request;
+        $requests[$input] = htmlentities($request,ENT_QUOTES );
     }
-
     if (count($errors) <= 0) {
         mysqli_query($conn, "INSERT INTO blogs VALUES(NULL, " . $_SESSION['user']['id'] . ",'" . $requests['title'] . "','" . $requests['content'] . "',NOW(),NOW())") or die(mysqli_error($conn));
         echo "<meta http-equiv=\"refresh\" content=\"0;url=/?page=create&msg=" . urlencode("Create Blog successfully.") . ".\">";
