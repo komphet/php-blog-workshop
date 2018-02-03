@@ -2,11 +2,13 @@
 require './layouts/header.php';
 
 $pages = [
-    'create',
     'register',
     'login',
     'logout',
-    'forgotpass'
+    'forgotpass',
+    'create',
+    'show',
+    'edit',
 ];
 
 if (in_array($_GET['page'], $pages)) {
