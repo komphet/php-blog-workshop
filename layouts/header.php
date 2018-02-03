@@ -1,4 +1,5 @@
 <?php
+session_start();
 date_default_timezone_set("Asia/Bangkok");
 ?>
 <!DOCTYPE html>
@@ -68,3 +69,8 @@ date_default_timezone_set("Asia/Bangkok");
         </div>
     </div>
 </div>
+<?php if(isset($_GET['msg'])): ?>
+<div class="alert alert-success">
+    <?php echo urldecode($_GET['msg']); ?>
+</div>
+<?php endif ?>
